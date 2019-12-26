@@ -16,7 +16,7 @@ const createVerses = () =>{
 
   for(var i = 1; i <= count; i++){
     let verse = i;
-    buttons.push(<ListGroupItem as="li" action key={i} onClick={e => onChangeList(verse)}>{i}</ListGroupItem>);
+    buttons.push(<ListGroupItem action href={`/reading/${props.book.abbrev}/${props.chapter}/${i}`} key={i} onClick={e => onChangeList(verse)}>{i}</ListGroupItem>);
   }
   return buttons;
 }
