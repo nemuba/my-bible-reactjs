@@ -22,7 +22,7 @@ const createVerses = () =>{
 }
 
   return(
-    <Container>
+    <Container style={{marginBottom: '60px'}}>
       <Row className="justify-content-center">
         <Col sm="12" xs="12" lg="6">
           <h4 className="mt-3">{props.book.name} - Cap. {props.chapter} - {props.verse} Versos</h4>

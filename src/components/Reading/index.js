@@ -28,7 +28,7 @@ const Reading = (props) =>{
   return(
     <div>
       <Header />
-      <Container>
+      <Container style={{marginBottom: '60px'}}>
         <Row className="justify-content-center">
           <Col lg="6" sm="12" xs="12">
             <Card className="mt-3">
